@@ -1,4 +1,4 @@
-import './style.css'
+
  
  const apiurl='https://api.openweathermap.org/data/2.5/weather?&units=metric'
  const apikey='bfd955f8d0bbaf48b73b2d6d295916ce'
