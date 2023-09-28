@@ -1,0 +1,151 @@
+:root {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+.main{
+  display: none;
+}
+.app_container {
+   width: 100%;
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather_box{
+  margin-top: 10rem;
+  width: 35%;
+  border-radius: 1rem;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+  to bottom,
+  rgba(255, 255, 255, 0.707),
+  rgb(53, 163, 200),
+  rgba(22, 151, 195, 0.69)
+);
+}
+.search{
+  margin-top: 3rem;
+  margin-left: -10px;
+  padding-bottom: 1rem;
+}
+.search input{
+   padding: 1rem 3rem;
+   border-radius: 2rem;
+   border: none;
+  width: 200px;
+}
+
+.search i{
+  color: rgb(99, 105, 108);
+}
+.search button{
+    background-color: transparent;
+    border: 3px solid rgba(133, 138, 138, 0.196);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: .4rem; 
+    margin-left: -40px; 
+}
+.search button:hover{
+   border-color:   rgba(22, 151, 195, 0.69);
+}
+
+.error{
+  display: none;
+  color: rgba(246, 6, 6, 0.915);
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+.image_sec{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image_sec img{
+  filter: drop-shadow(1px 3px rgb(242, 242, 242));
+
+}
+.image_sec h1,h2{
+  font-weight: lighter;
+  
+}
+.temp{
+  display: flex;
+}
+.image_sec h2{
+   margin-top: 0;
+   height: 0px;
+  font-size: xx-large;
+
+}
+h1 {
+   margin-left: .3rem;
+   
+   
+}
+.box_footer{
+  /* background-color: #242424; */
+  display: flex;
+  padding-block:2rem 4rem ;
+  width: 350px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box_footer h3{
+   font-weight: 300;
+   font-size: 15px;
+   color: rgba(197, 197, 193, 0.756);
+   letter-spacing:1px ;
+   text-align: center;
+  font-family: sans-serif; 
+}
+
+.box_footer img {
+  opacity: 0.797;
+  width: 40px;
+}
+.left{
+  padding-right: 1rem;
+ 
+  display: flex;
+  align-items: center;
+}
+.left img{
+   height: 35px;
+   margin-right: .5rem;
+   margin-top: 27px;
+}
+ .left h3 , .right h3{
+   margin-bottom: 1px;
+ }
+ .right{
+  display: flex;
+  margin-right:5px ;
+ }
+ .right h3{
+   margin-top: 30px;
+ }
+ .right img{
+  height: 55px;
+  width: 55px;
+  margin-right: .5rem;
+  margin-top: 23px;
+ }
+.wind_hum{
+
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 100;
+}
+@media screen and (max-width:760px) {
+  .weather_box{
+    width: 95%;
+    margin-top: 1rem;
+  }
+}
