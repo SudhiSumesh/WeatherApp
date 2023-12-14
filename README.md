@@ -1,1 +1,1 @@
-A wWeather App with JavaScript 
+A wWeather App with JavaScript ,use fetch method to display api data,designed well ,responsive
